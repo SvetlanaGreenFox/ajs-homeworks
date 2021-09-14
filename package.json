@@ -27,5 +27,14 @@
   },
   "dependencies": {
     "core-js": "^3.17.3"
-  }
+  },
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ]
 }
