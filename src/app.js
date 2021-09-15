@@ -5,4 +5,5 @@ const characters = [
   { name: 'archer', health: 0 },
 ];
 
+// eslint-disable-next-line no-unused-vars
 const alive = characters.filter((item) => item.health > 0);
